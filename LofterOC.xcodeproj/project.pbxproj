@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5A6A9091D6C7F9D003F7CA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A9081D6C7F9D003F7CA6 /* main.m */; };
+		C5A6A90C1D6C7F9D003F7CA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A90B1D6C7F9D003F7CA6 /* AppDelegate.m */; };
+		C5A6A90F1D6C7F9D003F7CA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A90E1D6C7F9D003F7CA6 /* ViewController.m */; };
+		C5A6A9121D6C7F9D003F7CA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A6A9101D6C7F9D003F7CA6 /* Main.storyboard */; };
+		C5A6A9141D6C7F9D003F7CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A6A9131D6C7F9D003F7CA6 /* Assets.xcassets */; };
+		C5A6A9171D6C7F9D003F7CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A6A9151D6C7F9D003F7CA6 /* LaunchScreen.storyboard */; };
+		C5A6A9221D6C7F9D003F7CA6 /* LofterOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A9211D6C7F9D003F7CA6 /* LofterOCTests.m */; };
+		C5A6A92D1D6C7F9D003F7CA6 /* LofterOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A92C1D6C7F9D003F7CA6 /* LofterOCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A6A91E1D6C7F9D003F7CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A6A8FC1D6C7F9D003F7CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A6A9031D6C7F9D003F7CA6;
+			remoteInfo = LofterOC;
+		};
+		C5A6A9291D6C7F9D003F7CA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A6A8FC1D6C7F9D003F7CA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A6A9031D6C7F9D003F7CA6;
+			remoteInfo = LofterOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5A6A9041D6C7F9D003F7CA6 /* LofterOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LofterOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A6A9081D6C7F9D003F7CA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5A6A90A1D6C7F9D003F7CA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5A6A90B1D6C7F9D003F7CA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5A6A90D1D6C7F9D003F7CA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5A6A90E1D6C7F9D003F7CA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5A6A9111D6C7F9D003F7CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5A6A9131D6C7F9D003F7CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A6A9161D6C7F9D003F7CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5A6A9181D6C7F9D003F7CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A6A91D1D6C7F9D003F7CA6 /* LofterOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LofterOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A6A9211D6C7F9D003F7CA6 /* LofterOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LofterOCTests.m; sourceTree = "<group>"; };
+		C5A6A9231D6C7F9D003F7CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A6A9281D6C7F9D003F7CA6 /* LofterOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LofterOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A6A92C1D6C7F9D003F7CA6 /* LofterOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LofterOCUITests.m; sourceTree = "<group>"; };
+		C5A6A92E1D6C7F9D003F7CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A6A9011D6C7F9D003F7CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A6A91A1D6C7F9D003F7CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A6A9251D6C7F9D003F7CA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A6A8FB1D6C7F9D003F7CA6 = {
+			isa = PBXGroup;
+			children = (
+				C5A6A9061D6C7F9D003F7CA6 /* LofterOC */,
+				C5A6A9201D6C7F9D003F7CA6 /* LofterOCTests */,
+				C5A6A92B1D6C7F9D003F7CA6 /* LofterOCUITests */,
+				C5A6A9051D6C7F9D003F7CA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A6A9051D6C7F9D003F7CA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6A9041D6C7F9D003F7CA6 /* LofterOC.app */,
+				C5A6A91D1D6C7F9D003F7CA6 /* LofterOCTests.xctest */,
+				C5A6A9281D6C7F9D003F7CA6 /* LofterOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A6A9061D6C7F9D003F7CA6 /* LofterOC */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6A90A1D6C7F9D003F7CA6 /* AppDelegate.h */,
+				C5A6A90B1D6C7F9D003F7CA6 /* AppDelegate.m */,
+				C5A6A90D1D6C7F9D003F7CA6 /* ViewController.h */,
+				C5A6A90E1D6C7F9D003F7CA6 /* ViewController.m */,
+				C5A6A9101D6C7F9D003F7CA6 /* Main.storyboard */,
+				C5A6A9131D6C7F9D003F7CA6 /* Assets.xcassets */,
+				C5A6A9151D6C7F9D003F7CA6 /* LaunchScreen.storyboard */,
+				C5A6A9181D6C7F9D003F7CA6 /* Info.plist */,
+				C5A6A9071D6C7F9D003F7CA6 /* Supporting Files */,
+			);
+			path = LofterOC;
+			sourceTree = "<group>";
+		};
+		C5A6A9071D6C7F9D003F7CA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6A9081D6C7F9D003F7CA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5A6A9201D6C7F9D003F7CA6 /* LofterOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6A9211D6C7F9D003F7CA6 /* LofterOCTests.m */,
+				C5A6A9231D6C7F9D003F7CA6 /* Info.plist */,
+			);
+			path = LofterOCTests;
+			sourceTree = "<group>";
+		};
+		C5A6A92B1D6C7F9D003F7CA6 /* LofterOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6A92C1D6C7F9D003F7CA6 /* LofterOCUITests.m */,
+				C5A6A92E1D6C7F9D003F7CA6 /* Info.plist */,
+			);
+			path = LofterOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A6A9031D6C7F9D003F7CA6 /* LofterOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A6A9311D6C7F9D003F7CA6 /* Build configuration list for PBXNativeTarget "LofterOC" */;
+			buildPhases = (
+				C5A6A9001D6C7F9D003F7CA6 /* Sources */,
+				C5A6A9011D6C7F9D003F7CA6 /* Frameworks */,
+				C5A6A9021D6C7F9D003F7CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LofterOC;
+			productName = LofterOC;
+			productReference = C5A6A9041D6C7F9D003F7CA6 /* LofterOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A6A91C1D6C7F9D003F7CA6 /* LofterOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A6A9341D6C7F9D003F7CA6 /* Build configuration list for PBXNativeTarget "LofterOCTests" */;
+			buildPhases = (
+				C5A6A9191D6C7F9D003F7CA6 /* Sources */,
+				C5A6A91A1D6C7F9D003F7CA6 /* Frameworks */,
+				C5A6A91B1D6C7F9D003F7CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A6A91F1D6C7F9D003F7CA6 /* PBXTargetDependency */,
+			);
+			name = LofterOCTests;
+			productName = LofterOCTests;
+			productReference = C5A6A91D1D6C7F9D003F7CA6 /* LofterOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5A6A9271D6C7F9D003F7CA6 /* LofterOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A6A9371D6C7F9D003F7CA6 /* Build configuration list for PBXNativeTarget "LofterOCUITests" */;
+			buildPhases = (
+				C5A6A9241D6C7F9D003F7CA6 /* Sources */,
+				C5A6A9251D6C7F9D003F7CA6 /* Frameworks */,
+				C5A6A9261D6C7F9D003F7CA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A6A92A1D6C7F9D003F7CA6 /* PBXTargetDependency */,
+			);
+			name = LofterOCUITests;
+			productName = LofterOCUITests;
+			productReference = C5A6A9281D6C7F9D003F7CA6 /* LofterOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A6A8FC1D6C7F9D003F7CA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Elise;
+				TargetAttributes = {
+					C5A6A9031D6C7F9D003F7CA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SPX8CADM9M;
+					};
+					C5A6A91C1D6C7F9D003F7CA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SPX8CADM9M;
+						TestTargetID = C5A6A9031D6C7F9D003F7CA6;
+					};
+					C5A6A9271D6C7F9D003F7CA6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SPX8CADM9M;
+						TestTargetID = C5A6A9031D6C7F9D003F7CA6;
+					};
+				};
+			};
+			buildConfigurationList = C5A6A8FF1D6C7F9D003F7CA6 /* Build configuration list for PBXProject "LofterOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A6A8FB1D6C7F9D003F7CA6;
+			productRefGroup = C5A6A9051D6C7F9D003F7CA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A6A9031D6C7F9D003F7CA6 /* LofterOC */,
+				C5A6A91C1D6C7F9D003F7CA6 /* LofterOCTests */,
+				C5A6A9271D6C7F9D003F7CA6 /* LofterOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A6A9021D6C7F9D003F7CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6A9171D6C7F9D003F7CA6 /* LaunchScreen.storyboard in Resources */,
+				C5A6A9141D6C7F9D003F7CA6 /* Assets.xcassets in Resources */,
+				C5A6A9121D6C7F9D003F7CA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A6A91B1D6C7F9D003F7CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A6A9261D6C7F9D003F7CA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A6A9001D6C7F9D003F7CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6A90F1D6C7F9D003F7CA6 /* ViewController.m in Sources */,
+				C5A6A90C1D6C7F9D003F7CA6 /* AppDelegate.m in Sources */,
+				C5A6A9091D6C7F9D003F7CA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A6A9191D6C7F9D003F7CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6A9221D6C7F9D003F7CA6 /* LofterOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A6A9241D6C7F9D003F7CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6A92D1D6C7F9D003F7CA6 /* LofterOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A6A91F1D6C7F9D003F7CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A6A9031D6C7F9D003F7CA6 /* LofterOC */;
+			targetProxy = C5A6A91E1D6C7F9D003F7CA6 /* PBXContainerItemProxy */;
+		};
+		C5A6A92A1D6C7F9D003F7CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A6A9031D6C7F9D003F7CA6 /* LofterOC */;
+			targetProxy = C5A6A9291D6C7F9D003F7CA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5A6A9101D6C7F9D003F7CA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A6A9111D6C7F9D003F7CA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5A6A9151D6C7F9D003F7CA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A6A9161D6C7F9D003F7CA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A6A92F1D6C7F9D003F7CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5A6A9301D6C7F9D003F7CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A6A9321D6C7F9D003F7CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LofterOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FurElise.LofterOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5A6A9331D6C7F9D003F7CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LofterOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FurElise.LofterOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5A6A9351D6C7F9D003F7CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LofterOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FurElise.LofterOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LofterOC.app/LofterOC";
+			};
+			name = Debug;
+		};
+		C5A6A9361D6C7F9D003F7CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LofterOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FurElise.LofterOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LofterOC.app/LofterOC";
+			};
+			name = Release;
+		};
+		C5A6A9381D6C7F9D003F7CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LofterOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FurElise.LofterOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LofterOC;
+			};
+			name = Debug;
+		};
+		C5A6A9391D6C7F9D003F7CA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LofterOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FurElise.LofterOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LofterOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A6A8FF1D6C7F9D003F7CA6 /* Build configuration list for PBXProject "LofterOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A6A92F1D6C7F9D003F7CA6 /* Debug */,
+				C5A6A9301D6C7F9D003F7CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A6A9311D6C7F9D003F7CA6 /* Build configuration list for PBXNativeTarget "LofterOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A6A9321D6C7F9D003F7CA6 /* Debug */,
+				C5A6A9331D6C7F9D003F7CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5A6A9341D6C7F9D003F7CA6 /* Build configuration list for PBXNativeTarget "LofterOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A6A9351D6C7F9D003F7CA6 /* Debug */,
+				C5A6A9361D6C7F9D003F7CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5A6A9371D6C7F9D003F7CA6 /* Build configuration list for PBXNativeTarget "LofterOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A6A9381D6C7F9D003F7CA6 /* Debug */,
+				C5A6A9391D6C7F9D003F7CA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A6A8FC1D6C7F9D003F7CA6 /* Project object */;
+}
