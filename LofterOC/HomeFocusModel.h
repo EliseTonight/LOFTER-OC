@@ -31,7 +31,6 @@
 @property (nonatomic,copy)   NSString *caption;
 @property (nonatomic,copy)   NSString *blogPageUrl;
 @property (nonatomic,copy)   NSString *firstSmallImageUrl;
-
 //post count
 @property (nonatomic,assign) NSInteger responseCount;
 @property (nonatomic,assign) NSInteger postHot;

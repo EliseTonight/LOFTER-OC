@@ -44,6 +44,7 @@
 		C5EB145D1D6F25EE005E9199 /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB145C1D6F25EE005E9199 /* IssueViewController.m */; };
 		C5EB14601D6F260B005E9199 /* MyselfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB145F1D6F260B005E9199 /* MyselfViewController.m */; };
 		C5EB14641D6F29EF005E9199 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB14631D6F29EF005E9199 /* UIViewController+Extension.m */; };
+		C5F2B9C11D85539E00818922 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F2B9C01D85539E00818922 /* UIView+Extension.m */; };
 		C5FF20151D7710C00017FF76 /* ImagePieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF20141D7710C00017FF76 /* ImagePieceView.m */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +137,8 @@
 		C5EB145F1D6F260B005E9199 /* MyselfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfViewController.m; sourceTree = "<group>"; };
 		C5EB14621D6F29EF005E9199 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
 		C5EB14631D6F29EF005E9199 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		C5F2B9BF1D85539E00818922 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C5F2B9C01D85539E00818922 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		C5FF20131D7710C00017FF76 /* ImagePieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePieceView.h; sourceTree = "<group>"; };
 		C5FF20141D7710C00017FF76 /* ImagePieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePieceView.m; sourceTree = "<group>"; };
 		FEE44A9431C353B1443501C7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -427,6 +430,8 @@
 				C5EB14631D6F29EF005E9199 /* UIViewController+Extension.m */,
 				C58326CE1D7C00000053A266 /* NSString+Extension.h */,
 				C58326CF1D7C00000053A266 /* NSString+Extension.m */,
+				C5F2B9BF1D85539E00818922 /* UIView+Extension.h */,
+				C5F2B9C01D85539E00818922 /* UIView+Extension.m */,
 			);
 			name = "Extension+";
 			sourceTree = "<group>";
@@ -628,6 +633,7 @@
 				C55FDD511D73F3A40024450C /* LofterRefreshHeader.m in Sources */,
 				C534F8FF1D7C47E600CC7A23 /* TableThreeSwitchView.m in Sources */,
 				C5DF84CE1D7D458F0083565B /* HomeSubscribeModel.m in Sources */,
+				C5F2B9C11D85539E00818922 /* UIView+Extension.m in Sources */,
 				C57F3FE21D71C0D100BEB757 /* DescoverExpertModel.m in Sources */,
 				C5862E8C1D7ABA8700222FD4 /* CommonLoadURLViewController.m in Sources */,
 				C59782241D795DF300855E5F /* ExpertView.m in Sources */,

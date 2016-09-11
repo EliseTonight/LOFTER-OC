@@ -148,7 +148,6 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
     [self.mainScrollView addSubview:self.focusTabelView];
 }
 
-
 #pragma mark - action
 
 - (void)rightButtonClick:(UIButton *)sender {

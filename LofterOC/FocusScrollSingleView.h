@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeFocusModel.h"
 
 @interface FocusScrollSingleView : UIView
+
+@property (nonatomic,strong) HomeFocusRecomBlogsModel *model;
 
 @end

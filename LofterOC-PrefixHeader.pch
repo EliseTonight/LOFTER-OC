@@ -36,6 +36,8 @@
 #define  DescoverTagCellContextKVO  @"DescoverTagCellContextKVO"
 #define  SubscribeCellContextKVO @"SubscribeCellContextKVO"
 
+#define FocusScrollSingleViewContextKVO   @"FocusScrollSingleViewContextKVO"
+
 
 //HTTP相关
 
