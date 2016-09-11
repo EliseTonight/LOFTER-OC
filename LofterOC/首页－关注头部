@@ -1,0 +1,21 @@
+{
+	"meta": {
+		"status": 200,
+		"msg": ""
+	},
+	"response": {
+		"recdata": {
+			"type": 4,
+			"img": "http://imglf0.nosdn.127.net/img/MkJYVHZpT2RlRlk3U0JaVlEyZUIrSXpZOWxQL2M5a3F0bU1FaC8rTE9jUWtQNFR5aVdYdUJRPT0.jpg?imageView&%7Cwatermark&type=1&gravity=northeast&dissolve=100&dx=15&dy=15&image=aW1nL3N5cy9iYW5uZXItY2xvc2UucG5n",
+			"createTime": 1473131392789,
+			"endTime": 1473609600000,
+			"height": 300,
+			"width": 900,
+			"object": {
+				"img": "http://imglf0.nosdn.127.net/img/MkJYVHZpT2RlRlk3U0JaVlEyZUIrSXpZOWxQL2M5a3F0bU1FaC8rTE9jUWtQNFR5aVdYdUJRPT0.jpg?imageView",
+				"url": "http://i.lofter.com/post/4a3a_c34471d"
+			},
+			"domainId": -1
+		}
+	}
+}

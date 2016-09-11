@@ -1,0 +1,50 @@
+//
+//  LofterOC-PrefixHeader.pch
+//  LofterOC
+//
+//  Created by Elise on 16/8/23.
+//  Copyright © 2016年 Elise. All rights reserved.
+//
+
+#ifndef LofterOC_PrefixHeader_pch
+#define LofterOC_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//设备参数
+
+#define  MainBounds              [[UIScreen mainScreen] bounds]
+#define  AppWidth                [[UIScreen mainScreen] bounds].size.width
+#define  AppHeight               [[UIScreen mainScreen] bounds].size.height
+#define  DeviceSystemVersion     [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define  SelfNavigationHeight    CGRectGetHeight(self.navigationController.navigationBar.frame)
+#define  SelfTabBarHeight        CGRectGetHeight(self.tabBarController.tabBar.frame)
+
+//刷新的动画页面
+#define RefreshImage_Height      20
+#define RefreshImage_Width       20
+
+
+
+//KVO相关
+
+#define  CurrentIndexContextKVO   @"CurrentIndexContextKVO"
+#define  AutoScrollViewModelContextKVO  @"AutoScrollViewModelContextKVO"
+
+#define  DescoverTagCellContextKVO  @"DescoverTagCellContextKVO"
+#define  SubscribeCellContextKVO @"SubscribeCellContextKVO"
+
+
+//HTTP相关
+
+#define DescoverUrl               @"http://api.lofter.com/v1.1/batchdata.api?product=lofter-iphone-5.3.1"
+#define DescoverUrlParameters     @{@"method":@"newrecomcontent",@"type":@"new"}
+
+//头文件
+#import "UIViewController+Extension.h"
+
+
+
+#endif /* LofterOC_PrefixHeader_pch */
