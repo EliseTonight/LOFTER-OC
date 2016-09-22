@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		72D39EF88DD64FA4EC655B48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA293FE98672474022E8F536 /* libPods.a */; };
+		C50AB3CA1D866F420088C088 /* InternetFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C50AB3C91D866F420088C088 /* InternetFailView.m */; };
+		C50AB3CC1D866F5E0088C088 /* InternetFailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50AB3CB1D866F5E0088C088 /* InternetFailView.xib */; };
 		C534F8FF1D7C47E600CC7A23 /* TableThreeSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534F8FE1D7C47E600CC7A23 /* TableThreeSwitchView.m */; };
+		C559CC001D88E598002260CF /* FocusSingleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C559CBFF1D88E598002260CF /* FocusSingleCollectionViewCell.m */; };
 		C55FDD511D73F3A40024450C /* LofterRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FDD501D73F3A40024450C /* LofterRefreshHeader.m */; };
 		C574E90F1D827A320074E23A /* 首页－关注头部 in Resources */ = {isa = PBXBuildFile; fileRef = C574E90E1D827A320074E23A /* 首页－关注头部 */; };
 		C574E9111D827A460074E23A /* 首页－关注 in Resources */ = {isa = PBXBuildFile; fileRef = C574E9101D827A460074E23A /* 首页－关注 */; };
@@ -19,6 +22,9 @@
 		C58326D01D7C00000053A266 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C58326CF1D7C00000053A266 /* NSString+Extension.m */; };
 		C5862E891D7AAE3000222FD4 /* CornerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5862E881D7AAE3000222FD4 /* CornerImageView.m */; };
 		C5862E8C1D7ABA8700222FD4 /* CommonLoadURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5862E8B1D7ABA8700222FD4 /* CommonLoadURLViewController.m */; };
+		C595B1121D93A02300746473 /* MeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B1111D93A02300746473 /* MeTableView.m */; };
+		C595B11C1D93A1E900746473 /* FocusHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B11B1D93A1E900746473 /* FocusHeadView.m */; };
+		C595B11F1D93A29100746473 /* HomeFocusHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B11E1D93A29100746473 /* HomeFocusHeadModel.m */; };
 		C597821D1D794EA000855E5F /* SingleExpertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C597821C1D794EA000855E5F /* SingleExpertView.m */; };
 		C59782241D795DF300855E5F /* ExpertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59782231D795DF300855E5F /* ExpertView.m */; };
 		C5A6A9091D6C7F9D003F7CA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A9081D6C7F9D003F7CA6 /* main.m */; };
@@ -27,6 +33,7 @@
 		C5A6A9221D6C7F9D003F7CA6 /* LofterOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A9211D6C7F9D003F7CA6 /* LofterOCTests.m */; };
 		C5A6A92D1D6C7F9D003F7CA6 /* LofterOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A92C1D6C7F9D003F7CA6 /* LofterOCUITests.m */; };
 		C5A6A93B1D6C7FE9003F7CA6 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = C5A6A93A1D6C7FE9003F7CA6 /* PodFile */; };
+		C5B882091D882D6600FF2FE4 /* FocusScrollCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B882081D882D6600FF2FE4 /* FocusScrollCollectionView.m */; };
 		C5BBB3761D780C2F00CA1F32 /* DescoverTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BBB3741D780C2F00CA1F32 /* DescoverTagCell.m */; };
 		C5BBB3771D780C2F00CA1F32 /* DescoverTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5BBB3751D780C2F00CA1F32 /* DescoverTagCell.xib */; };
 		C5CFE7321D70214500C79B8E /* AutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CFE7311D70214500C79B8E /* AutoScrollView.m */; };
@@ -36,15 +43,17 @@
 		C5DF84CE1D7D458F0083565B /* HomeSubscribeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DF84CD1D7D458F0083565B /* HomeSubscribeModel.m */; };
 		C5DF84D41D7DABEA0083565B /* SubscribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DF84D31D7DABEA0083565B /* SubscribeCell.m */; };
 		C5E2229F1D82E1670075CEC3 /* FocusScrollSingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E2229E1D82E1670075CEC3 /* FocusScrollSingleView.m */; };
-		C5E222A11D82E18C0075CEC3 /* FocusScrollSingleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E222A01D82E18C0075CEC3 /* FocusScrollSingleView.xib */; };
+		C5E8A70E1D8E5D61006D11FD /* MyselfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8A70D1D8E5D61006D11FD /* MyselfViewController.m */; };
+		C5E8A7131D8E5DB7006D11FD /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8A7111D8E5DB7006D11FD /* MessageCell.m */; };
+		C5E8A7141D8E5DB7006D11FD /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E8A7121D8E5DB7006D11FD /* MessageCell.xib */; };
 		C5EB144B1D6F21D2005E9199 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB144A1D6F21D2005E9199 /* MainTabBarViewController.m */; };
 		C5EB144E1D6F256D005E9199 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB144D1D6F256D005E9199 /* HomeViewController.m */; };
 		C5EB14561D6F25BC005E9199 /* DescoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB14551D6F25BC005E9199 /* DescoverViewController.m */; };
 		C5EB145A1D6F25D5005E9199 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB14591D6F25D5005E9199 /* MessageViewController.m */; };
 		C5EB145D1D6F25EE005E9199 /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB145C1D6F25EE005E9199 /* IssueViewController.m */; };
-		C5EB14601D6F260B005E9199 /* MyselfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB145F1D6F260B005E9199 /* MyselfViewController.m */; };
 		C5EB14641D6F29EF005E9199 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB14631D6F29EF005E9199 /* UIViewController+Extension.m */; };
 		C5F2B9C11D85539E00818922 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F2B9C01D85539E00818922 /* UIView+Extension.m */; };
+		C5F2B9C41D85580100818922 /* FocusScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F2B9C31D85580100818922 /* FocusScrollCell.m */; };
 		C5FF20151D7710C00017FF76 /* ImagePieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF20141D7710C00017FF76 /* ImagePieceView.m */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +77,13 @@
 /* Begin PBXFileReference section */
 		5CF1E4F259B527E62953E963 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BA293FE98672474022E8F536 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50AB3C81D866F420088C088 /* InternetFailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetFailView.h; sourceTree = "<group>"; };
+		C50AB3C91D866F420088C088 /* InternetFailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetFailView.m; sourceTree = "<group>"; };
+		C50AB3CB1D866F5E0088C088 /* InternetFailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InternetFailView.xib; sourceTree = "<group>"; };
 		C534F8FD1D7C47E600CC7A23 /* TableThreeSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableThreeSwitchView.h; sourceTree = "<group>"; };
 		C534F8FE1D7C47E600CC7A23 /* TableThreeSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableThreeSwitchView.m; sourceTree = "<group>"; };
+		C559CBFE1D88E598002260CF /* FocusSingleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusSingleCollectionViewCell.h; sourceTree = "<group>"; };
+		C559CBFF1D88E598002260CF /* FocusSingleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusSingleCollectionViewCell.m; sourceTree = "<group>"; };
 		C55FDD4F1D73F3A40024450C /* LofterRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LofterRefreshHeader.h; sourceTree = "<group>"; };
 		C55FDD501D73F3A40024450C /* LofterRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LofterRefreshHeader.m; sourceTree = "<group>"; };
 		C574E90E1D827A320074E23A /* 首页－关注头部 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "首页－关注头部"; sourceTree = "<group>"; };
@@ -88,6 +102,12 @@
 		C5862E881D7AAE3000222FD4 /* CornerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerImageView.m; sourceTree = "<group>"; };
 		C5862E8A1D7ABA8700222FD4 /* CommonLoadURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLoadURLViewController.h; sourceTree = "<group>"; };
 		C5862E8B1D7ABA8700222FD4 /* CommonLoadURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLoadURLViewController.m; sourceTree = "<group>"; };
+		C595B1101D93A02300746473 /* MeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableView.h; sourceTree = "<group>"; };
+		C595B1111D93A02300746473 /* MeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableView.m; sourceTree = "<group>"; };
+		C595B11A1D93A1E900746473 /* FocusHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusHeadView.h; sourceTree = "<group>"; };
+		C595B11B1D93A1E900746473 /* FocusHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusHeadView.m; sourceTree = "<group>"; };
+		C595B11D1D93A29100746473 /* HomeFocusHeadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFocusHeadModel.h; sourceTree = "<group>"; };
+		C595B11E1D93A29100746473 /* HomeFocusHeadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeFocusHeadModel.m; sourceTree = "<group>"; };
 		C597821B1D794EA000855E5F /* SingleExpertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleExpertView.h; sourceTree = "<group>"; };
 		C597821C1D794EA000855E5F /* SingleExpertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleExpertView.m; sourceTree = "<group>"; };
 		C59782221D795DF300855E5F /* ExpertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpertView.h; sourceTree = "<group>"; };
@@ -106,6 +126,8 @@
 		C5A6A92E1D6C7F9D003F7CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A6A93A1D6C7FE9003F7CA6 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 		C5A6A93C1D6C7FFF003F7CA6 /* LofterOC-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LofterOC-PrefixHeader.pch"; sourceTree = "<group>"; };
+		C5B882071D882D6600FF2FE4 /* FocusScrollCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusScrollCollectionView.h; sourceTree = "<group>"; };
+		C5B882081D882D6600FF2FE4 /* FocusScrollCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusScrollCollectionView.m; sourceTree = "<group>"; };
 		C5BBB3731D780C2F00CA1F32 /* DescoverTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescoverTagCell.h; sourceTree = "<group>"; };
 		C5BBB3741D780C2F00CA1F32 /* DescoverTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescoverTagCell.m; sourceTree = "<group>"; };
 		C5BBB3751D780C2F00CA1F32 /* DescoverTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescoverTagCell.xib; sourceTree = "<group>"; };
@@ -122,7 +144,11 @@
 		C5DF84D31D7DABEA0083565B /* SubscribeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeCell.m; sourceTree = "<group>"; };
 		C5E2229D1D82E1670075CEC3 /* FocusScrollSingleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusScrollSingleView.h; sourceTree = "<group>"; };
 		C5E2229E1D82E1670075CEC3 /* FocusScrollSingleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusScrollSingleView.m; sourceTree = "<group>"; };
-		C5E222A01D82E18C0075CEC3 /* FocusScrollSingleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FocusScrollSingleView.xib; sourceTree = "<group>"; };
+		C5E8A70C1D8E5D61006D11FD /* MyselfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfViewController.h; sourceTree = "<group>"; };
+		C5E8A70D1D8E5D61006D11FD /* MyselfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfViewController.m; sourceTree = "<group>"; };
+		C5E8A7101D8E5DB7006D11FD /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		C5E8A7111D8E5DB7006D11FD /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		C5E8A7121D8E5DB7006D11FD /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		C5EB14491D6F21D2005E9199 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		C5EB144A1D6F21D2005E9199 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		C5EB144C1D6F256D005E9199 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -133,12 +159,12 @@
 		C5EB14591D6F25D5005E9199 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		C5EB145B1D6F25EE005E9199 /* IssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
 		C5EB145C1D6F25EE005E9199 /* IssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
-		C5EB145E1D6F260B005E9199 /* MyselfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfViewController.h; sourceTree = "<group>"; };
-		C5EB145F1D6F260B005E9199 /* MyselfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfViewController.m; sourceTree = "<group>"; };
 		C5EB14621D6F29EF005E9199 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
 		C5EB14631D6F29EF005E9199 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
 		C5F2B9BF1D85539E00818922 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		C5F2B9C01D85539E00818922 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C5F2B9C21D85580100818922 /* FocusScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusScrollCell.h; sourceTree = "<group>"; };
+		C5F2B9C31D85580100818922 /* FocusScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusScrollCell.m; sourceTree = "<group>"; };
 		C5FF20131D7710C00017FF76 /* ImagePieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePieceView.h; sourceTree = "<group>"; };
 		C5FF20141D7710C00017FF76 /* ImagePieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePieceView.m; sourceTree = "<group>"; };
 		FEE44A9431C353B1443501C7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -225,9 +251,16 @@
 				C5DA18D21D7858D700D18E23 /* TableSwitchView.m */,
 				C5DF84D21D7DABEA0083565B /* SubscribeCell.h */,
 				C5DF84D31D7DABEA0083565B /* SubscribeCell.m */,
+				C5F2B9C21D85580100818922 /* FocusScrollCell.h */,
+				C5F2B9C31D85580100818922 /* FocusScrollCell.m */,
+				C5B882071D882D6600FF2FE4 /* FocusScrollCollectionView.h */,
+				C5B882081D882D6600FF2FE4 /* FocusScrollCollectionView.m */,
+				C559CBFE1D88E598002260CF /* FocusSingleCollectionViewCell.h */,
+				C559CBFF1D88E598002260CF /* FocusSingleCollectionViewCell.m */,
 				C5E2229D1D82E1670075CEC3 /* FocusScrollSingleView.h */,
 				C5E2229E1D82E1670075CEC3 /* FocusScrollSingleView.m */,
-				C5E222A01D82E18C0075CEC3 /* FocusScrollSingleView.xib */,
+				C595B11A1D93A1E900746473 /* FocusHeadView.h */,
+				C595B11B1D93A1E900746473 /* FocusHeadView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -237,13 +270,9 @@
 			children = (
 				C534F8FD1D7C47E600CC7A23 /* TableThreeSwitchView.h */,
 				C534F8FE1D7C47E600CC7A23 /* TableThreeSwitchView.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		C59782211D794ED500855E5F /* View */ = {
-			isa = PBXGroup;
-			children = (
+				C5E8A7101D8E5DB7006D11FD /* MessageCell.h */,
+				C5E8A7111D8E5DB7006D11FD /* MessageCell.m */,
+				C5E8A7121D8E5DB7006D11FD /* MessageCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -333,8 +362,21 @@
 				C5DF84CA1D7D45590083565B /* HomeFocusModel.m */,
 				C5DF84CC1D7D458F0083565B /* HomeSubscribeModel.h */,
 				C5DF84CD1D7D458F0083565B /* HomeSubscribeModel.m */,
+				C595B11D1D93A29100746473 /* HomeFocusHeadModel.h */,
+				C595B11E1D93A29100746473 /* HomeFocusHeadModel.m */,
 			);
 			name = "首页model";
+			sourceTree = "<group>";
+		};
+		C5E8A70F1D8E5D67006D11FD /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				C5E8A70C1D8E5D61006D11FD /* MyselfViewController.h */,
+				C5E8A70D1D8E5D61006D11FD /* MyselfViewController.m */,
+				C595B1101D93A02300746473 /* MeTableView.h */,
+				C595B1111D93A02300746473 /* MeTableView.m */,
+			);
+			name = "个人";
 			sourceTree = "<group>";
 		};
 		C5EB14461D6F1D0D005E9199 /* Model */ = {
@@ -353,7 +395,7 @@
 				C5EB14501D6F257C005E9199 /* 发现 */,
 				C5EB14511D6F2587005E9199 /* 发布 */,
 				C5EB14521D6F2599005E9199 /* 消息 */,
-				C5EB14531D6F259E005E9199 /* 我的 */,
+				C5E8A70F1D8E5D67006D11FD /* 个人 */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -369,6 +411,9 @@
 				C5862E881D7AAE3000222FD4 /* CornerImageView.m */,
 				C5862E8A1D7ABA8700222FD4 /* CommonLoadURLViewController.h */,
 				C5862E8B1D7ABA8700222FD4 /* CommonLoadURLViewController.m */,
+				C50AB3C81D866F420088C088 /* InternetFailView.h */,
+				C50AB3C91D866F420088C088 /* InternetFailView.m */,
+				C50AB3CB1D866F5E0088C088 /* InternetFailView.xib */,
 				C5CFE72F1D70211E00C79B8E /* AutoScrolIView */,
 			);
 			name = Common;
@@ -411,16 +456,6 @@
 				C59782201D794ECF00855E5F /* View */,
 			);
 			name = "消息";
-			sourceTree = "<group>";
-		};
-		C5EB14531D6F259E005E9199 /* 我的 */ = {
-			isa = PBXGroup;
-			children = (
-				C5EB145E1D6F260B005E9199 /* MyselfViewController.h */,
-				C5EB145F1D6F260B005E9199 /* MyselfViewController.m */,
-				C59782211D794ED500855E5F /* View */,
-			);
-			name = "我的";
 			sourceTree = "<group>";
 		};
 		C5EB14611D6F29B9005E9199 /* Extension+ */ = {
@@ -550,7 +585,8 @@
 				C5DF84C61D7D43B90083565B /* 首页－订阅 in Resources */,
 				C5A6A93B1D6C7FE9003F7CA6 /* PodFile in Resources */,
 				C5BBB3771D780C2F00CA1F32 /* DescoverTagCell.xib in Resources */,
-				C5E222A11D82E18C0075CEC3 /* FocusScrollSingleView.xib in Resources */,
+				C5E8A7141D8E5DB7006D11FD /* MessageCell.xib in Resources */,
+				C50AB3CC1D866F5E0088C088 /* InternetFailView.xib in Resources */,
 				C5A6A9141D6C7F9D003F7CA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,22 +661,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5862E891D7AAE3000222FD4 /* CornerImageView.m in Sources */,
+				C50AB3CA1D866F420088C088 /* InternetFailView.m in Sources */,
 				C5CFE7321D70214500C79B8E /* AutoScrollView.m in Sources */,
+				C595B11C1D93A1E900746473 /* FocusHeadView.m in Sources */,
 				C5DF84D41D7DABEA0083565B /* SubscribeCell.m in Sources */,
-				C5EB14601D6F260B005E9199 /* MyselfViewController.m in Sources */,
+				C5F2B9C41D85580100818922 /* FocusScrollCell.m in Sources */,
+				C595B11F1D93A29100746473 /* HomeFocusHeadModel.m in Sources */,
+				C5B882091D882D6600FF2FE4 /* FocusScrollCollectionView.m in Sources */,
 				C5EB145A1D6F25D5005E9199 /* MessageViewController.m in Sources */,
 				C57F3FDC1D71BA3700BEB757 /* DescoverTagModel.m in Sources */,
 				C55FDD511D73F3A40024450C /* LofterRefreshHeader.m in Sources */,
 				C534F8FF1D7C47E600CC7A23 /* TableThreeSwitchView.m in Sources */,
+				C5E8A70E1D8E5D61006D11FD /* MyselfViewController.m in Sources */,
 				C5DF84CE1D7D458F0083565B /* HomeSubscribeModel.m in Sources */,
 				C5F2B9C11D85539E00818922 /* UIView+Extension.m in Sources */,
+				C5E8A7131D8E5DB7006D11FD /* MessageCell.m in Sources */,
 				C57F3FE21D71C0D100BEB757 /* DescoverExpertModel.m in Sources */,
 				C5862E8C1D7ABA8700222FD4 /* CommonLoadURLViewController.m in Sources */,
 				C59782241D795DF300855E5F /* ExpertView.m in Sources */,
 				C57F3FD91D71904600BEB757 /* DescoverMidModel.m in Sources */,
 				C5BBB3761D780C2F00CA1F32 /* DescoverTagCell.m in Sources */,
+				C595B1121D93A02300746473 /* MeTableView.m in Sources */,
 				C5E2229F1D82E1670075CEC3 /* FocusScrollSingleView.m in Sources */,
 				C5EB144B1D6F21D2005E9199 /* MainTabBarViewController.m in Sources */,
+				C559CC001D88E598002260CF /* FocusSingleCollectionViewCell.m in Sources */,
 				C5DA18D31D7858D700D18E23 /* TableSwitchView.m in Sources */,
 				C58326D01D7C00000053A266 /* NSString+Extension.m in Sources */,
 				C5EB14641D6F29EF005E9199 /* UIViewController+Extension.m in Sources */,

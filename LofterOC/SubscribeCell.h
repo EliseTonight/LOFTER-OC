@@ -13,5 +13,6 @@
 
 @property (nonatomic,strong) HomeSubscribeModel *model;
 
+- (void)hiddenLineView;
 
 @end

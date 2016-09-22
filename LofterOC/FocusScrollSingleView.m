@@ -70,6 +70,7 @@
     
     self.focusButton = [[UIButton alloc] initWithFrame:CGRectMake(selfFrame.size.width / 2 - 38, CGRectGetMaxY(self.midImageView.frame) + ((selfFrame.size.height - CGRectGetMaxY(self.midImageView.frame)) / 4), 76, (selfFrame.size.height - CGRectGetMaxY(self.midImageView.frame)) / 2)];
     [self.focusButton setBackgroundImage:[UIImage imageNamed:@"感兴趣的人卡片里的关注按钮"] forState:UIControlStateNormal];
+    [self.focusButton setBackgroundImage:[UIImage imageNamed:@"感兴趣的人已关注"] forState:UIControlStateSelected];
     [self.focusButton addTarget:self action:@selector(focusButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:self.focusButton];
 }
@@ -77,11 +78,14 @@
 #pragma mark - action
 
 - (void)cancelButtonClick:(UIButton *)sender {
-    
+    [self.delegate FocusScrollSingleViewCancelButtonClickWith:sender];
 }
 
 - (void)focusButtonClick:(UIButton *)sender {
-    
+    sender.selected = !sender.selected;
+    if ([self.delegate respondsToSelector:@selector(FocusScrollSingleViewFocusButtonClickWith:)]) {
+        [self.delegate FocusScrollSingleViewFocusButtonClickWith:sender];
+    }
 }
 
 #pragma mark - KVO

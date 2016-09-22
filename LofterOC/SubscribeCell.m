@@ -59,7 +59,7 @@
     [self addSubview:self.nameLabel];
     
     self.countLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.frame.size.width - 58, 8, 50, 44)];
-    self.countLabel.font = [UIFont systemFontOfSize:14];
+    self.countLabel.font = [UIFont systemFontOfSize:10];
     self.countLabel.textColor = [UIColor lightGrayColor];
     [self addSubview:self.countLabel];
     
@@ -78,7 +78,11 @@
     return  image;
 }
 
+#pragma mark - public
 
+- (void)hiddenLineView {
+    self.topLineView.hidden = true;
+}
 
 #pragma mark - KVO 
 

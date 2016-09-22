@@ -60,7 +60,7 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * (double)(NSEC_PER_SEC)));
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * (NSEC_PER_SEC)));
     dispatch_after(time, dispatch_get_main_queue(), ^{
         [self.tableSwitchView clickButtonWithIndex:currentIndex];
     });
@@ -75,11 +75,9 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
 
 - (UITableView *)subscribeTabelView {
     if (_subscribeTabelView == nil) {
-        _subscribeTabelView = [[UITableView alloc] initWithFrame:CGRectMake(AppWidth, SelfNavigationHeight, AppWidth, AppHeight - SelfNavigationHeight - SelfTabBarHeight) style:UITableViewStylePlain];
+        _subscribeTabelView = [[UITableView alloc] initWithFrame:CGRectMake(AppWidth, SelfNavigationHeight + 20, AppWidth, AppHeight - SelfNavigationHeight - SelfTabBarHeight) style:UITableViewStylePlain];
         _subscribeTabelView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _subscribeTabelView.delegate = self;
-        _subscribeTabelView.dataSource = self;
-        _subscribeTabelView.backgroundColor = [UIColor whiteColor];
+        _subscribeTabelView.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1.0];
         _subscribeTabelView.tag = 1002;
     }
     return _subscribeTabelView;
@@ -87,11 +85,9 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
 
 - (UITableView *)focusTabelView {
     if (_focusTabelView == nil) {
-        _focusTabelView = [[UITableView alloc] initWithFrame:CGRectMake(0, SelfNavigationHeight, AppWidth, AppHeight - SelfNavigationHeight - SelfTabBarHeight) style:UITableViewStylePlain];
+        _focusTabelView = [[UITableView alloc] initWithFrame:CGRectMake(0, SelfNavigationHeight + 20, AppWidth, AppHeight - SelfNavigationHeight - SelfTabBarHeight) style:UITableViewStylePlain];
         _focusTabelView.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _focusTabelView.delegate = self;
-        _focusTabelView.dataSource = self;
-        _focusTabelView.backgroundColor = [UIColor whiteColor];
+        _focusTabelView.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1.0];
         _focusTabelView.tag = 1001;
     }
     return _focusTabelView;
@@ -99,10 +95,10 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
 
 - (UIScrollView *)mainScrollView {
     if (_mainScrollView == nil) {
-        _mainScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, SelfNavigationHeight, AppWidth, AppHeight - SelfNavigationHeight - SelfTabBarHeight)];
+        _mainScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, AppWidth, AppHeight - SelfNavigationHeight)];
         _mainScrollView.delegate = self;
         _mainScrollView.pagingEnabled = true;
-        _mainScrollView.contentSize = CGSizeMake(AppWidth * 2, AppHeight - SelfNavigationHeight - SelfTabBarHeight);
+        _mainScrollView.contentSize = CGSizeMake(AppWidth * 2, 0);
         _mainScrollView.showsVerticalScrollIndicator = false;
         _mainScrollView.showsHorizontalScrollIndicator = false;
         _mainScrollView.backgroundColor = [UIColor whiteColor];
@@ -140,12 +136,56 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
 }
 
 - (void)setMainViews {
-    [self.view addSubview:self.mainScrollView];
-    [self setTableRefreshAnimationWithTarget:self refreshAction:@selector(loadHomeSubModel) gifFrame:CGRectMake((AppWidth - RefreshImage_Width) * 0.5, 0, RefreshImage_Width, RefreshImage_Height) targetTabelView:self.subscribeTabelView];
-    [self setTableRefreshAnimationWithTarget:self refreshAction:@selector(loadHomeFocusModel) gifFrame:CGRectMake((AppWidth - RefreshImage_Width) * 0.5, 0, RefreshImage_Width, RefreshImage_Height) targetTabelView:self.focusTabelView];
+    self.focusTabelView.delegate = self;
+    self.focusTabelView.dataSource = self;
+    self.subscribeTabelView.delegate = self;
+    self.subscribeTabelView.dataSource = self;
+    [self setTableRefreshAnimationWithTarget:self refreshAction:@selector(loadHomeSubModel) gifFrame:CGRectMake((AppWidth - RefreshImage_Width) * 0.5, 15, RefreshImage_Width, RefreshImage_Height) targetTabelView:self.subscribeTabelView];
+    [self setTableRefreshAnimationWithTarget:self refreshAction:@selector(loadHomeFocusModel) gifFrame:CGRectMake((AppWidth - RefreshImage_Width) * 0.5, 10, RefreshImage_Width, RefreshImage_Height) targetTabelView:self.focusTabelView];
     
+    self.subscribeTabelView.tableHeaderView = [self subscribeTableViewHeadView];
+    self.subscribeTabelView.tableFooterView = [self subscribeTableViewFootView];
+    
+    [self.view addSubview:self.mainScrollView];
     [self.mainScrollView addSubview:self.subscribeTabelView];
     [self.mainScrollView addSubview:self.focusTabelView];
+}
+
+- (UIView *)subscribeTableViewHeadView {
+    UIView *headView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, AppWidth, 50)];
+    headView.backgroundColor = [UIColor whiteColor];
+    
+    UIView *colorView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, AppWidth, 15)];
+    colorView.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1.0];
+    [headView addSubview:colorView];
+    
+    UILabel *headLabel = [[UILabel alloc] initWithFrame:CGRectMake(8, 23, AppWidth - 16, 19)];
+    headLabel.font = [UIFont systemFontOfSize:14];
+    headLabel.text = @"我的订阅";
+    headLabel.textColor = [UIColor darkGrayColor];
+    [headView addSubview:headLabel];
+    
+    UIView *line = [[UIView alloc] initWithFrame:CGRectMake(0, 49.5, AppWidth, 0.5)];
+    line.backgroundColor = [UIColor lightGrayColor];
+    [headView addSubview:line];
+    
+    return headView;
+}
+
+- (UIView *)subscribeTableViewFootView {
+    UIView *footView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, AppWidth, 80)];
+    footView.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1.0];
+    
+    UIButton *footButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 15, AppWidth, 50)];
+    [footButton setBackgroundColor:[UIColor whiteColor]];
+    [footButton setTitle:@"分类查看所有标签" forState:UIControlStateNormal];
+    [footButton setTitleColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1.0] forState:UIControlStateNormal];
+    footButton.titleLabel.textAlignment = NSTextAlignmentCenter;
+    footButton.titleLabel.font = [UIFont systemFontOfSize:14];
+    [footButton addTarget:self action:@selector(footButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    [footView addSubview:footButton];
+    
+    return footView;
 }
 
 #pragma mark - action
@@ -154,11 +194,15 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
     
 }
 
+- (void)footButtonClick:(UIButton *)sender {
+    
+}
+
 #pragma mark - HTTP
 
 - (void)loadHomeSubModel {
     __weak typeof(self) weakSelf = self;
-    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.8 * (double)(NSEC_PER_SEC)));
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC));
     dispatch_after(time, dispatch_get_main_queue(), ^{
         NSString *path = [[NSBundle mainBundle] pathForResource:@"首页－订阅" ofType:nil];
         NSData *data = [NSData dataWithContentsOfFile:path];
@@ -174,8 +218,8 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
 
 - (void)loadHomeFocusModel {
     __weak typeof(self) weakSelf = self;
-    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.8 * (double)(NSEC_PER_SEC)));
-    dispatch_after(1.0, dispatch_get_main_queue(), ^{
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC));
+    dispatch_after(time, dispatch_get_main_queue(), ^{
         NSString *path = [[NSBundle mainBundle] pathForResource:@"首页－关注" ofType:nil];
         NSData *data = [NSData dataWithContentsOfFile:path];
         if (data != nil) {
@@ -201,15 +245,13 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
     if (scrollView.tag == 1000) {
         NSInteger index = (int)(scrollView.contentOffset.x / AppWidth);
         currentIndex = index;
-        NSLog(@"%d",currentIndex);
-        if (index == 1 && modelPart2 == nil) {
-            [self.subscribeTabelView.mj_header beginRefreshing];
-        }
         [self.tableSwitchView clickButtonWithIndex:currentIndex];
     }
 }
 
-
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat offSetY = scrollView.contentOffset.y;
+}
 
 #pragma mark - UITableViewDelegate,UITableViewDataSource
 
@@ -234,6 +276,9 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
             cell = [[SubscribeCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SubscribeCellId];
         }
         ((SubscribeCell *)cell).model = (HomeSubscribeModel *)(modelPart2.tags[indexPath.row]);
+        if (indexPath.row == 0) {
+            [((SubscribeCell *)cell) hiddenLineView];
+        }
     }
     else {
         cell = [[UITableViewCell alloc] init];
@@ -249,6 +294,7 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
         return 0;
     }
 }
+
 
 
 
