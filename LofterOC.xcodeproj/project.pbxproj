@@ -14,7 +14,6 @@
 		C559CC001D88E598002260CF /* FocusSingleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C559CBFF1D88E598002260CF /* FocusSingleCollectionViewCell.m */; };
 		C55FDD511D73F3A40024450C /* LofterRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FDD501D73F3A40024450C /* LofterRefreshHeader.m */; };
 		C574E90F1D827A320074E23A /* 首页－关注头部 in Resources */ = {isa = PBXBuildFile; fileRef = C574E90E1D827A320074E23A /* 首页－关注头部 */; };
-		C574E9111D827A460074E23A /* 首页－关注 in Resources */ = {isa = PBXBuildFile; fileRef = C574E9101D827A460074E23A /* 首页－关注 */; };
 		C57F3FD61D71873F00BEB757 /* DescoverScrollImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F3FD51D71873F00BEB757 /* DescoverScrollImageModel.m */; };
 		C57F3FD91D71904600BEB757 /* DescoverMidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F3FD81D71904600BEB757 /* DescoverMidModel.m */; };
 		C57F3FDC1D71BA3700BEB757 /* DescoverTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C57F3FDB1D71BA3700BEB757 /* DescoverTagModel.m */; };
@@ -33,6 +32,7 @@
 		C5A6A9221D6C7F9D003F7CA6 /* LofterOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A9211D6C7F9D003F7CA6 /* LofterOCTests.m */; };
 		C5A6A92D1D6C7F9D003F7CA6 /* LofterOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6A92C1D6C7F9D003F7CA6 /* LofterOCUITests.m */; };
 		C5A6A93B1D6C7FE9003F7CA6 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = C5A6A93A1D6C7FE9003F7CA6 /* PodFile */; };
+		C5B032101D93DFF400F2F0D0 /* 首页－关注 in Resources */ = {isa = PBXBuildFile; fileRef = C5B0320F1D93DFF400F2F0D0 /* 首页－关注 */; };
 		C5B882091D882D6600FF2FE4 /* FocusScrollCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B882081D882D6600FF2FE4 /* FocusScrollCollectionView.m */; };
 		C5BBB3761D780C2F00CA1F32 /* DescoverTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BBB3741D780C2F00CA1F32 /* DescoverTagCell.m */; };
 		C5BBB3771D780C2F00CA1F32 /* DescoverTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5BBB3751D780C2F00CA1F32 /* DescoverTagCell.xib */; };
@@ -87,7 +87,6 @@
 		C55FDD4F1D73F3A40024450C /* LofterRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LofterRefreshHeader.h; sourceTree = "<group>"; };
 		C55FDD501D73F3A40024450C /* LofterRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LofterRefreshHeader.m; sourceTree = "<group>"; };
 		C574E90E1D827A320074E23A /* 首页－关注头部 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "首页－关注头部"; sourceTree = "<group>"; };
-		C574E9101D827A460074E23A /* 首页－关注 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "首页－关注"; path = "../../Lofter数据/首页－关注"; sourceTree = "<group>"; };
 		C57F3FD41D71873F00BEB757 /* DescoverScrollImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescoverScrollImageModel.h; sourceTree = "<group>"; };
 		C57F3FD51D71873F00BEB757 /* DescoverScrollImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescoverScrollImageModel.m; sourceTree = "<group>"; };
 		C57F3FD71D71904600BEB757 /* DescoverMidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescoverMidModel.h; sourceTree = "<group>"; };
@@ -126,6 +125,7 @@
 		C5A6A92E1D6C7F9D003F7CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A6A93A1D6C7FE9003F7CA6 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 		C5A6A93C1D6C7FFF003F7CA6 /* LofterOC-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LofterOC-PrefixHeader.pch"; sourceTree = "<group>"; };
+		C5B0320F1D93DFF400F2F0D0 /* 首页－关注 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "首页－关注"; sourceTree = "<group>"; };
 		C5B882071D882D6600FF2FE4 /* FocusScrollCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusScrollCollectionView.h; sourceTree = "<group>"; };
 		C5B882081D882D6600FF2FE4 /* FocusScrollCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusScrollCollectionView.m; sourceTree = "<group>"; };
 		C5BBB3731D780C2F00CA1F32 /* DescoverTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescoverTagCell.h; sourceTree = "<group>"; };
@@ -322,8 +322,8 @@
 				C5A6A9131D6C7F9D003F7CA6 /* Assets.xcassets */,
 				C5A6A9181D6C7F9D003F7CA6 /* Info.plist */,
 				C574E90E1D827A320074E23A /* 首页－关注头部 */,
+				C5B0320F1D93DFF400F2F0D0 /* 首页－关注 */,
 				C5DF84C41D7D43B90083565B /* 首页－订阅 */,
-				C574E9101D827A460074E23A /* 首页－关注 */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -580,7 +580,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C574E9111D827A460074E23A /* 首页－关注 in Resources */,
+				C5B032101D93DFF400F2F0D0 /* 首页－关注 in Resources */,
 				C574E90F1D827A320074E23A /* 首页－关注头部 in Resources */,
 				C5DF84C61D7D43B90083565B /* 首页－订阅 in Resources */,
 				C5A6A93B1D6C7FE9003F7CA6 /* PodFile in Resources */,

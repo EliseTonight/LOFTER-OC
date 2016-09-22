@@ -34,7 +34,7 @@
         [self setButtonWith:self.midButton title:midText tag:2];
         [self setButtonWith:self.rightButton title:rightText tag:3];
         [self setBottom];
-        [self buttonClick:self.rightButton];
+        [self buttonClick:self.leftButton];
         
     }
     return self;
