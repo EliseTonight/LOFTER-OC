@@ -23,6 +23,22 @@
     return self;
 }
 
+#pragma mark - IBInspectable
+
+- (void)setBorderColor:(UIColor *)borderColor {
+    self.layer.borderColor = borderColor.CGColor;
+}
+
+- (void)setBorderWidth:(CGFloat)borderWidth {
+    if (borderWidth < 0) {
+        return;
+    }
+    self.layer.borderWidth = borderWidth;
+}
+- (void)setCornerRadius:(CGFloat)cornerRadius {
+    self.layer.cornerRadius = cornerRadius;
+    self.layer.masksToBounds = cornerRadius > 0;
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

@@ -40,6 +40,8 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
     self = [super init];
     if (self) {
         [self setTabBarWithTitle:@"首页" withTag:0 withImageStr:@"主页icon_非当前帧" withSelectedImageStr:@"主页icon_当前帧"];
+        NSLog(@"self class is %@", NSStringFromClass([self class]));
+        NSLog(@"super class is %@", NSStringFromClass([super class]));
         currentIndex = 0;
     }
     return self;
@@ -52,9 +54,6 @@ static NSString *SubscribeCellId = @"SubscribeCellId";
     
     [self.focusTabelView.mj_header beginRefreshing];
     [self.subscribeTabelView.mj_header beginRefreshing];
-    
-    
-    
     // Do any additional setup after loading the view.
 }
 

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		72D39EF88DD64FA4EC655B48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA293FE98672474022E8F536 /* libPods.a */; };
+		C508C1141DA642D800F32EF4 /* MyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C508C1131DA642D800F32EF4 /* MyHeadView.m */; };
+		C508C1161DA6430700F32EF4 /* MyHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C508C1151DA6430700F32EF4 /* MyHeadView.xib */; };
 		C50AB3CA1D866F420088C088 /* InternetFailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C50AB3C91D866F420088C088 /* InternetFailView.m */; };
 		C50AB3CC1D866F5E0088C088 /* InternetFailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50AB3CB1D866F5E0088C088 /* InternetFailView.xib */; };
 		C534F8FF1D7C47E600CC7A23 /* TableThreeSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C534F8FE1D7C47E600CC7A23 /* TableThreeSwitchView.m */; };
@@ -21,7 +23,6 @@
 		C58326D01D7C00000053A266 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C58326CF1D7C00000053A266 /* NSString+Extension.m */; };
 		C5862E891D7AAE3000222FD4 /* CornerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5862E881D7AAE3000222FD4 /* CornerImageView.m */; };
 		C5862E8C1D7ABA8700222FD4 /* CommonLoadURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5862E8B1D7ABA8700222FD4 /* CommonLoadURLViewController.m */; };
-		C595B1121D93A02300746473 /* MeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B1111D93A02300746473 /* MeTableView.m */; };
 		C595B11C1D93A1E900746473 /* FocusHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B11B1D93A1E900746473 /* FocusHeadView.m */; };
 		C595B11F1D93A29100746473 /* HomeFocusHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C595B11E1D93A29100746473 /* HomeFocusHeadModel.m */; };
 		C597821D1D794EA000855E5F /* SingleExpertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C597821C1D794EA000855E5F /* SingleExpertView.m */; };
@@ -77,6 +78,9 @@
 /* Begin PBXFileReference section */
 		5CF1E4F259B527E62953E963 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BA293FE98672474022E8F536 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C508C1121DA642D800F32EF4 /* MyHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeadView.h; sourceTree = "<group>"; };
+		C508C1131DA642D800F32EF4 /* MyHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeadView.m; sourceTree = "<group>"; };
+		C508C1151DA6430700F32EF4 /* MyHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHeadView.xib; sourceTree = "<group>"; };
 		C50AB3C81D866F420088C088 /* InternetFailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetFailView.h; sourceTree = "<group>"; };
 		C50AB3C91D866F420088C088 /* InternetFailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetFailView.m; sourceTree = "<group>"; };
 		C50AB3CB1D866F5E0088C088 /* InternetFailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InternetFailView.xib; sourceTree = "<group>"; };
@@ -101,8 +105,6 @@
 		C5862E881D7AAE3000222FD4 /* CornerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerImageView.m; sourceTree = "<group>"; };
 		C5862E8A1D7ABA8700222FD4 /* CommonLoadURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLoadURLViewController.h; sourceTree = "<group>"; };
 		C5862E8B1D7ABA8700222FD4 /* CommonLoadURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLoadURLViewController.m; sourceTree = "<group>"; };
-		C595B1101D93A02300746473 /* MeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeTableView.h; sourceTree = "<group>"; };
-		C595B1111D93A02300746473 /* MeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeTableView.m; sourceTree = "<group>"; };
 		C595B11A1D93A1E900746473 /* FocusHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusHeadView.h; sourceTree = "<group>"; };
 		C595B11B1D93A1E900746473 /* FocusHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FocusHeadView.m; sourceTree = "<group>"; };
 		C595B11D1D93A29100746473 /* HomeFocusHeadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFocusHeadModel.h; sourceTree = "<group>"; };
@@ -373,8 +375,9 @@
 			children = (
 				C5E8A70C1D8E5D61006D11FD /* MyselfViewController.h */,
 				C5E8A70D1D8E5D61006D11FD /* MyselfViewController.m */,
-				C595B1101D93A02300746473 /* MeTableView.h */,
-				C595B1111D93A02300746473 /* MeTableView.m */,
+				C508C1121DA642D800F32EF4 /* MyHeadView.h */,
+				C508C1131DA642D800F32EF4 /* MyHeadView.m */,
+				C508C1151DA6430700F32EF4 /* MyHeadView.xib */,
 			);
 			name = "个人";
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				C5B032101D93DFF400F2F0D0 /* 首页－关注 in Resources */,
 				C574E90F1D827A320074E23A /* 首页－关注头部 in Resources */,
 				C5DF84C61D7D43B90083565B /* 首页－订阅 in Resources */,
+				C508C1161DA6430700F32EF4 /* MyHeadView.xib in Resources */,
 				C5A6A93B1D6C7FE9003F7CA6 /* PodFile in Resources */,
 				C5BBB3771D780C2F00CA1F32 /* DescoverTagCell.xib in Resources */,
 				C5E8A7141D8E5DB7006D11FD /* MessageCell.xib in Resources */,
@@ -681,7 +685,6 @@
 				C59782241D795DF300855E5F /* ExpertView.m in Sources */,
 				C57F3FD91D71904600BEB757 /* DescoverMidModel.m in Sources */,
 				C5BBB3761D780C2F00CA1F32 /* DescoverTagCell.m in Sources */,
-				C595B1121D93A02300746473 /* MeTableView.m in Sources */,
 				C5E2229F1D82E1670075CEC3 /* FocusScrollSingleView.m in Sources */,
 				C5EB144B1D6F21D2005E9199 /* MainTabBarViewController.m in Sources */,
 				C559CC001D88E598002260CF /* FocusSingleCollectionViewCell.m in Sources */,
@@ -693,6 +696,7 @@
 				C597821D1D794EA000855E5F /* SingleExpertView.m in Sources */,
 				C57F3FD61D71873F00BEB757 /* DescoverScrollImageModel.m in Sources */,
 				C5DF84CB1D7D45590083565B /* HomeFocusModel.m in Sources */,
+				C508C1141DA642D800F32EF4 /* MyHeadView.m in Sources */,
 				C5EB145D1D6F25EE005E9199 /* IssueViewController.m in Sources */,
 				C5EB144E1D6F256D005E9199 /* HomeViewController.m in Sources */,
 				C5EB14561D6F25BC005E9199 /* DescoverViewController.m in Sources */,
